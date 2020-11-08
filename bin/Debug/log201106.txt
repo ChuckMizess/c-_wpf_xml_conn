@@ -1,0 +1,16 @@
+16:59:26.737 START LOGGING
+17:00:33.341 Initialize() OK
+17:01:08.681 UnInitialize() OK
+17:01:08.681 STOP LOGGING
+17:01:12.703 START LOGGING
+17:01:20.775 Initialize() OK
+17:02:10.950 SendCommand: <command id="connect"><login>FBTC1391A</login><password>*</password><host>tr1.finambank.ru</host><port>3324</port><logsdir>D:\progr_fol\Project-tc-f 13.12.2019\tslight\bin\Debug\</logsdir><rqdelay>100</rqdelay></command>
+17:02:12.038 ServerReply: <result success="true"/>
+17:02:39.620 ServerData: <markets><market id="0">Collateral</market><market id="1">ММВБ</market><market id="4">FORTS</market><market id="8">INF</market><market id="14">MMA</market><market id="15">ETS</market></markets>
+17:02:52.558 add market: 0;Collateral;
+add market: 1;ММВБ;
+add market: 4;FORTS;
+add market: 8;INF;
+add market: 14;MMA;
+add market: 15;ETS;
+add market: 15;ETS;

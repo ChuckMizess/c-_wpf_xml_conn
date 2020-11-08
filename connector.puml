@@ -1,0 +1,37 @@
+@startuml
+class MarshalUTF8 <<static>> {
+    {static} MarshalUTF8()
+    + {static} StringToHGlobalUTF8(data:String) : IntPtr
+    + {static} PtrToStringUTF8(pData:IntPtr) : String
+}
+class TXmlConnector <<static>> {
+    - {static} bConnected : bool
+    + {static} statusTimeout : int
+    + {static} FormReady : bool
+    + {static} ConnectorSetCallback(new_form_data:NewStringDataHandler, new_security:NewStringDataHandler, new_timeframe:NewStringDataHandler, new_status:NewBoolDataHandler) : void
+    {static} myCallBack(pData:IntPtr) : bool
+    {static} Form_AddText(stringData:string) : void
+    {static} On_New_Security(stringData:string) : void
+    {static} On_New_Timeframe(stringData:string) : void
+    {static} New_Status() : void
+    + {static} ConnectorSendCommand(command:String) : String
+    + {static} ConnectorInitialize(Path:String, LogLevel:Int16) : bool
+    + {static} ConnectorUnInitialize() : void
+    + {static} Transaq_HandleData(data:string) : string
+    - {static} <<extern>> SetCallback(pCallback:CallBackDelegate) : bool
+    - {static} <<extern>> SendCommand(pData:IntPtr) : IntPtr
+    - {static} <<extern>> FreeMemory(pData:IntPtr) : bool
+    - {static} <<extern>> Initialize(pPath:IntPtr, logLevel:Int32) : IntPtr
+    - {static} <<extern>> UnInitialize() : IntPtr
+    - {static} <<extern>> SetLogLevel(logLevel:Int32) : IntPtr
+}
+MarshalUTF8 --> "_utf8" UTF8Encoding
+TXmlConnector o-> "EX_SETTING_CALLBACK" String
+TXmlConnector o-> "myCallbackDelegate" CallBackDelegate
+TXmlConnector o-> "callbackHandle" GCHandle
+TXmlConnector o-> "statusDisconnected" AutoResetEvent
+TXmlConnector --> "send_new_form_data" NewStringDataHandler
+TXmlConnector --> "send_new_security" NewStringDataHandler
+TXmlConnector --> "send_new_timeframe" NewStringDataHandler
+TXmlConnector --> "send_new_status" NewBoolDataHandler
+@enduml

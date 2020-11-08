@@ -1,0 +1,133 @@
+
+
+Start logging 07/11/2020 11:54:00 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+11:54:00.629 {988} Connecting to tr1.finambank.ru:3324 buf=65512...
+11:54:00.770 {988} Connected.
+11:54:00.831 {988} Session timeout 25000 ms.
+11:54:00.831 {988} Request timeout 10000 ms.
+11:54:00.831 {988} SYS# 617 BLD# 42 SRV# 1 UID# 38712
+11:54:00.845 {988} Server time:7/11/2020 11:53:57, RQL:13, Diff*10:-30
+11:54:00.877 {988} Server time:7/11/2020 11:53:57, RQL:12, Diff*10:-30
+11:54:06.090 {988} Snapshot accepted
+11:54:06.090 {988} EURUSDTODTOM=EURUSD000TOM - EURUSD000TOD.
+11:54:06.090 {988} EURUSD000TOM=EUR_RUB__TOM - USD000UTSTOM.
+11:54:06.093 {988} EURUSD000TOD=EUR_RUB__TOD - USD000000TOD.
+11:54:06.445 {988} Snapshot done. 
+
+Start logging 07/11/2020 13:15:41 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+13:15:41.395 {1860} Connecting to tr1.finambank.ru:3324 buf=65512...
+13:15:41.485 {1860} Connected.
+13:15:41.526 {1860} Session timeout 25000 ms.
+13:15:41.526 {1860} Request timeout 10000 ms.
+13:15:41.526 {1860} SYS# 617 BLD# 42 SRV# 1 UID# 38712
+13:15:41.540 {1860} Server time:7/11/2020 13:15:38, RQL:14, Diff*10:-30
+13:15:41.567 {1860} Server time:7/11/2020 13:15:38, RQL:12, Diff*10:-30
+13:15:49.067 {1860} Snapshot accepted
+13:15:49.067 {1860} EURUSDTODTOM=EURUSD000TOM - EURUSD000TOD.
+13:15:49.067 {1860} EURUSD000TOM=EUR_RUB__TOM - USD000UTSTOM.
+13:15:49.067 {1860} EURUSD000TOD=EUR_RUB__TOD - USD000000TOD.
+13:15:49.499 {1860} Snapshot done. 
+13:17:33.053 {1860} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+13:17:33.257 {1860} Trade Stream Closed. S:8841/1076, R:3620225/3323, E:0, Rl:0
+
+
+Start logging 07/11/2020 13:27:23 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+13:27:23.167 {238} Connecting to tr1.finambank.ru:3324 buf=65512...
+13:27:23.180 {238} Connected.
+13:27:23.222 {238} Session timeout 25000 ms.
+13:27:23.222 {238} Request timeout 10000 ms.
+13:27:23.222 {238} SYS# 617 BLD# 42 SRV# 1 UID# 38712
+13:27:23.235 {238} Server time:7/11/2020 13:27:19, RQL:13, Diff*10:-40
+13:27:23.280 {238} Server time:7/11/2020 13:27:20, RQL:12, Diff*10:-30
+13:27:29.153 {238} Snapshot accepted
+13:27:29.153 {238} EURUSDTODTOM=EURUSD000TOM - EURUSD000TOD.
+13:27:29.153 {238} EURUSD000TOM=EUR_RUB__TOM - USD000UTSTOM.
+13:27:29.153 {238} EURUSD000TOD=EUR_RUB__TOD - USD000000TOD.
+13:27:29.492 {238} Snapshot done. 
+
+Start logging 07/11/2020 13:38:42 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+13:38:42.609 {1DB8} Connecting to tr1.finambank.ru:3324 buf=65512...
+13:38:42.666 {1DB8} Connected.
+13:38:42.707 {1DB8} Session timeout 25000 ms.
+13:38:42.707 {1DB8} Request timeout 10000 ms.
+13:38:42.707 {1DB8} SYS# 617 BLD# 42 SRV# 1 UID# 38712
+13:38:42.720 {1DB8} Server time:7/11/2020 13:38:39, RQL:12, Diff*10:-30
+13:38:42.748 {1DB8} Server time:7/11/2020 13:38:39, RQL:13, Diff*10:-30
+13:38:47.762 {1DB8} Snapshot accepted
+13:38:47.762 {1DB8} EURUSDTODTOM=EURUSD000TOM - EURUSD000TOD.
+13:38:47.762 {1DB8} EURUSD000TOM=EUR_RUB__TOM - USD000UTSTOM.
+13:38:47.762 {1DB8} EURUSD000TOD=EUR_RUB__TOD - USD000000TOD.
+13:38:48.110 {1DB8} Snapshot done. 
+
+Start logging 07/11/2020 13:57:59 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+13:57:59.059 {1F78} Connecting to tr1.finambank.ru:3324 buf=65512...
+13:57:59.218 {1F78} Connected.
+13:57:59.257 {1F78} Session timeout 25000 ms.
+13:57:59.258 {1F78} Request timeout 10000 ms.
+13:57:59.258 {1F78} SYS# 617 BLD# 42 SRV# 1 UID# 38712
+13:57:59.270 {1F78} Server time:7/11/2020 13:57:56, RQL:12, Diff*10:-30
+13:57:59.297 {1F78} Server time:7/11/2020 13:57:56, RQL:12, Diff*10:-30
+13:58:04.879 {1F78} Snapshot accepted
+13:58:04.879 {1F78} EURUSDTODTOM=EURUSD000TOM - EURUSD000TOD.
+13:58:04.879 {1F78} EURUSD000TOM=EUR_RUB__TOM - USD000UTSTOM.
+13:58:04.879 {1F78} EURUSD000TOD=EUR_RUB__TOD - USD000000TOD.
+13:58:05.239 {1F78} Snapshot done. 
+
+Start logging 07/11/2020 14:09:05 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+14:09:05.306 {B78} Connecting to tr1.finambank.ru:3324 buf=65512...
+14:09:05.353 {B78} Connected.
+14:09:05.395 {B78} Session timeout 25000 ms.
+14:09:05.395 {B78} Request timeout 10000 ms.
+14:09:05.395 {B78} SYS# 617 BLD# 42 SRV# 1 UID# 38712
+14:09:05.408 {B78} Server time:7/11/2020 14:09:02, RQL:13, Diff*10:-30
+14:09:05.435 {B78} Server time:7/11/2020 14:09:02, RQL:12, Diff*10:-30
+14:09:10.866 {B78} Snapshot accepted
+14:09:10.866 {B78} EURUSDTODTOM=EURUSD000TOM - EURUSD000TOD.
+14:09:10.866 {B78} EURUSD000TOM=EUR_RUB__TOM - USD000UTSTOM.
+14:09:10.867 {B78} EURUSD000TOD=EUR_RUB__TOD - USD000000TOD.
+14:09:11.201 {B78} Snapshot done. 
+14:21:32.507 {B78} RQ_MAIN recv #6859:0 (-8recv) timeout
+14:21:32.507 {B78} ReConnecting to tr1.finambank.ru:3324...
+14:21:44.047 {B78} Connect error #8 Server:  Сервер недоступен.
+14:21:45.047 {B78} RQ_MAIN [-1] Request timeout.
+14:21:45.047 {B78} 
+RQ: 5
+SG: 1
+14:21:45.047 {B78} Unknown Exception. Event: #0: 0, previous: 0, zone: -1
+14:21:45.047 {B78} 
+RQ: 5
+SG: 1
+14:21:45.047 {B78} RQ_LOGOUT send #6860:0 (-8sent) failed with error 10054 
+14:21:46.395 {B78} 
+
+Start logging 07/11/2020 20:09:56 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+20:09:56.939 {187C} Connecting to tr1.finambank.ru:3324 buf=65512...
+20:09:57.097 {187C} Connected.
+20:09:57.153 {187C} Session timeout 25000 ms.
+20:09:57.153 {187C} Request timeout 10000 ms.
+20:09:57.153 {187C} SYS# 617 BLD# 42 SRV# 1 UID# 38712
+20:09:57.166 {187C} Server time:7/11/2020 20:09:52, RQL:13, Diff*10:-50
+20:09:57.204 {187C} Server time:7/11/2020 20:09:52, RQL:12, Diff*10:-50
+20:10:02.254 {187C} Snapshot accepted
+20:10:02.254 {187C} EURUSDTODTOM=EURUSD000TOM - EURUSD000TOD.
+20:10:02.254 {187C} EURUSD000TOM=EUR_RUB__TOM - USD000UTSTOM.
+20:10:02.254 {187C} EURUSD000TOD=EUR_RUB__TOD - USD000000TOD.
+20:10:02.596 {187C} Snapshot done. 
+20:27:52.502 {187C} RQ_MAIN recv #10145:0 (-8recv) timeout
+20:27:52.503 {187C} ReConnecting to tr1.finambank.ru:3324...
+20:28:05.319 {187C} Connect error #8 Server:  Сервер недоступен.
+20:28:06.319 {187C} RQ_MAIN [-1] Request timeout.
+20:28:06.328 {187C} 
+RQ: 5
+SG: 1
+20:28:08.522 {187C} Unknown Exception. Event: #0: 0, previous: 0, zone: -1
+20:28:08.522 {187C} 
+RQ: 5
+SG: 1
+20:28:08.722 {187C} RQ_LOGOUT send #10146:0 (-8sent) failed with error 10054 
+20:28:11.115 {187C} 

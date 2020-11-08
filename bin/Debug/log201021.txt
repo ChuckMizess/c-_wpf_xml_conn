@@ -1,0 +1,103 @@
+13:13:11.699 START LOGGING
+13:13:12.148 Initialize() OK
+13:13:26.921 UnInitialize() OK
+13:13:26.921 STOP LOGGING
+13:14:47.140 START LOGGING
+13:14:47.157 Initialize() OK
+13:15:03.766 SendCommand: <command id="connect"><login>1342</login><password>*</password><host>tr1.finam.ru</host><port>3900</port><logsdir>D:\progr_fol\Project-tc-f 13.12.2019\tslight\bin\Debug\</logsdir><rqdelay>100</rqdelay></command>
+13:15:04.782 ServerReply: <result success="true"/>
+13:15:04.864 ServerData: <server_status connected="error">Сервер не доступен</server_status>
+13:15:04.887 set server_status: 0:<error>;
+set server_status: 0:<error>;
+set server_status: 0:<error>;
+13:19:09.194 START LOGGING
+13:19:09.217 Initialize() OK
+13:19:44.730 SendCommand: <command id="connect"><login>24.240.233.158</login><password>*</password><host>24.240.233.158</host><port>3702</port><logsdir>D:\progr_fol\Project-tc-f 13.12.2019\tslight\bin\Debug\</logsdir><rqdelay>100</rqdelay></command>
+13:19:45.731 ServerReply: <result success="true"/>
+13:19:45.737 ServerData: <server_status connected="error">Сервер не доступен</server_status>
+13:19:45.738 set server_status: 0:<error>;
+set server_status: 0:<error>;
+set server_status: 0:<error>;
+13:21:05.944 START LOGGING
+13:21:05.970 Initialize() OK
+13:25:02.719 UnInitialize() OK
+13:25:45.348 STOP LOGGING
+13:32:45.460 START LOGGING
+13:32:45.496 Initialize() OK
+13:40:04.045 SendCommand: <command id="connect"><login>123456</login><password>*</password><host>24.240.233.158:3702</host><port>3702</port><logsdir>D:\progr_fol\Project-tc-f 13.12.2019\tslight\bin\Debug\</logsdir><rqdelay>100</rqdelay></command>
+13:41:06.571 ServerData: <server_status connected="error">Сервер не доступен</server_status>
+13:41:18.091 set server_status: 0:<error>;
+set server_status: 0:<error>;
+set server_status: 0:<error>;
+13:41:40.989 ServerReply: <result success="true"/>
+13:46:50.483 START LOGGING
+13:46:50.507 Initialize() OK
+13:49:49.825 SendCommand: <command id="connect"><login>123456</login><password>*</password><host>24.240.233.158</host><port>3702</port><logsdir>D:\progr_fol\Project-tc-f 13.12.2019\tslight\bin\Debug\</logsdir><rqdelay>100</rqdelay></command>
+13:53:41.471 ServerData: <server_status connected="error">Сервер не доступен</server_status>
+13:53:45.723 set server_status: 0:<error>;
+set server_status: 0:<error>;
+set server_status: 0:<error>;
+13:54:18.995 ServerReply: <result success="true"/>
+16:53:41.008 START LOGGING
+16:53:41.164 Initialize() OK
+16:55:49.309 START LOGGING
+16:55:49.333 Initialize() OK
+16:55:53.500 SendCommand: <command id="connect"><login>123456</login><password>*</password><host>24.240.233.158</host><port>3702</port><logsdir>D:\progr_fol\Project-tc-f 13.12.2019\tslight\bin\Debug\</logsdir><rqdelay>100</rqdelay></command>
+16:55:54.519 ServerReply: <result success="true"/>
+16:55:54.566 ServerData: <server_status connected="error">Сервер не доступен</server_status>
+16:55:54.575 set server_status: 0:<error>;
+set server_status: 0:<error>;
+set server_status: 0:<error>;
+16:56:03.604 SendCommand: <command id="connect"><login>123456</login><password>*</password><host>24.240.233.158</host><port>3702</port><logsdir>D:\progr_fol\Project-tc-f 13.12.2019\tslight\bin\Debug\</logsdir><rqdelay>100</rqdelay></command>
+16:56:04.605 ServerReply: <result success="true"/>
+16:56:04.606 ServerData: <server_status connected="error">Сервер не доступен</server_status>
+16:56:04.607 set server_status: 0:<error>;
+set server_status: 0:<error>;
+set server_status: 0:<error>;
+16:56:16.043 SendCommand: <command id="connect"><login>123456</login><password>*</password><host>24.240.233.158</host><port>3702</port><logsdir>D:\progr_fol\Project-tc-f 13.12.2019\tslight\bin\Debug\</logsdir><rqdelay>100</rqdelay></command>
+16:56:17.044 ServerReply: <result success="true"/>
+16:56:25.068 ServerData: <server_status connected="error">Сервер не доступен</server_status>
+16:57:15.670 set server_status: 0:<error>;
+set server_status: 0:<error>;
+set server_status: 0:<error>;
+16:59:03.016 START LOGGING
+16:59:03.031 Initialize() OK
+17:00:03.137 START LOGGING
+17:00:03.152 Initialize() OK
+17:00:31.828 SendCommand: <command id="connect"><login>TCNN10000</login><password>*</password><host>tr1.finam.ru</host><port>3900</port><logsdir>D:\progr_fol\Project-tc-f 13.12.2019\tslight\bin\Debug\</logsdir><rqdelay>100</rqdelay></command>
+17:00:32.829 ServerReply: <result success="true"/>
+17:00:32.871 ServerData: <server_status connected="error">Сервер не доступен</server_status>
+17:00:32.872 set server_status: 0:<error>;
+set server_status: 0:<error>;
+set server_status: 0:<error>;
+17:00:43.596 SendCommand: <command id="connect"><login>TCNN10000</login><password>*</password><host>tr1-demo5.finam.ru</host><port>3939</port><logsdir>D:\progr_fol\Project-tc-f 13.12.2019\tslight\bin\Debug\</logsdir><rqdelay>100</rqdelay></command>
+17:00:44.596 ServerReply: <result success="true"/>
+17:00:44.612 ServerData: <server_status connected="error">Сервер не доступен</server_status>
+17:00:44.612 set server_status: 0:<error>;
+set server_status: 0:<error>;
+set server_status: 0:<error>;
+17:00:51.227 SendCommand: <command id="connect"><login>TCNN10000</login><password>*</password><host>tr1.finambank.ru</host><port>3324</port><logsdir>D:\progr_fol\Project-tc-f 13.12.2019\tslight\bin\Debug\</logsdir><rqdelay>100</rqdelay></command>
+17:00:52.228 ServerReply: <result success="true"/>
+17:00:52.255 ServerData: <server_status connected="error">Сервер не доступен</server_status>
+17:00:52.255 set server_status: 0:<error>;
+set server_status: 0:<error>;
+set server_status: 0:<error>;
+17:01:45.272 START LOGGING
+17:02:08.533 Initialize() OK
+17:06:26.356 START LOGGING
+17:06:28.606 Initialize() OK
+22:35:48.863 START LOGGING
+22:35:49.167 Initialize() OK
+22:37:32.484 SendCommand: <command id="connect"><login>FBTC1391A</login><password>*</password><host>tr1.finambank.ru</host><port>3324</port><logsdir>D:\progr_fol\Project-tc-f 13.12.2019\tslight\bin\Debug\</logsdir><rqdelay>100</rqdelay></command>
+22:37:33.505 ServerReply: <result success="true"/>
+22:37:33.618 ServerData: <server_status connected="error">Сервер не доступен</server_status>
+22:37:33.682 set server_status: 0:<error>;
+set server_status: 0:<error>;
+set server_status: 0:<error>;
+22:37:48.585 SendCommand: <command id="connect"><login>FBTC1391A</login><password>*</password><host>tr1.finambank.ru</host><port>3324</port><logsdir>D:\progr_fol\Project-tc-f 13.12.2019\tslight\bin\Debug\</logsdir><rqdelay>100</rqdelay></command>
+22:37:49.586 ServerReply: <result success="true"/>
+22:37:49.587 ServerData: <server_status connected="error">Сервер не доступен</server_status>
+22:37:49.588 set server_status: 0:<error>;
+set server_status: 0:<error>;
+set server_status: 0:<error>;
+22:42:37.880 START LOGGING

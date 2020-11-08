@@ -1,0 +1,6 @@
+15:52:12.150 START LOGGING
+15:53:57.669 SendCommand: <command id="connect"><login>FBTC1391A</login><password>*</password><host>tr1.finambank.ru</host><port>3324</port><logsdir>D:\progr_fol\Project-tc-f 13.12.2019\tslight\bin\Debug\</logsdir><rqdelay>100</rqdelay></command>
+15:55:17.203 START LOGGING
+15:55:53.096 SendCommand: <command id="connect"><login>123</login><password>*</password><host>tr1.finambank.ru</host><port>3324</port><logsdir>D:\progr_fol\Project-tc-f 13.12.2019\tslight\bin\Debug\</logsdir><rqdelay>100</rqdelay></command>
+15:59:50.598 START LOGGING
+16:00:10.231 SendCommand: <command id="connect"><login>666</login><password>*</password><host>tr1.finambank.ru</host><port>3324</port><logsdir>D:\progr_fol\Project-tc-f 13.12.2019\tslight\bin\Debug\</logsdir><rqdelay>100</rqdelay></command>

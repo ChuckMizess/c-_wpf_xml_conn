@@ -1,0 +1,13 @@
+@startuml
+class FinancialChart {
+    + period : int
+    + bar_count : int
+    + ImageDir : string
+    + FinancialChart(panel_control:Control, chart_period:int, AppDir:string)
+    # <<override>> Dispose(disposing:bool) : void
+    - InitializeComponent() : void
+    + LoadData(candles:DataTable_candle) : void
+    + LoadPoint(index:int, candle:DataRow_candle) : void
+    + SetMarkers(Bars:IList<int>, image:string, info:string, series:string) : void
+}
+@enduml

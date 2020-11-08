@@ -1,0 +1,211 @@
+@startuml
+class FinancialChart {
+    + period : int
+    + bar_count : int
+    + ImageDir : string
+    + FinancialChart(panel_control:Control, chart_period:int, AppDir:string)
+    # <<override>> Dispose(disposing:bool) : void
+    - InitializeComponent() : void
+    + LoadData(candles:DataTable_candle) : void
+    + LoadPoint(index:int, candle:DataRow_candle) : void
+    + SetMarkers(Bars:IList<int>, image:string, info:string, series:string) : void
+}
+class MarshalUTF8 <<static>> {
+    {static} MarshalUTF8()
+    + {static} StringToHGlobalUTF8(data:String) : IntPtr
+    + {static} PtrToStringUTF8(pData:IntPtr) : String
+}
+class TXmlConnector <<static>> {
+    - {static} bConnected : bool
+    + {static} statusTimeout : int
+    + {static} FormReady : bool
+    + {static} ConnectorSetCallback(new_form_data:NewStringDataHandler, new_security:NewStringDataHandler, new_timeframe:NewStringDataHandler, new_status:NewBoolDataHandler) : void
+    {static} myCallBack(pData:IntPtr) : bool
+    {static} Form_AddText(stringData:string) : void
+    {static} On_New_Security(stringData:string) : void
+    {static} On_New_Timeframe(stringData:string) : void
+    {static} New_Status() : void
+    + {static} ConnectorSendCommand(command:String) : String
+    + {static} ConnectorInitialize(Path:String, LogLevel:Int16) : bool
+    + {static} ConnectorUnInitialize() : void
+    + {static} Transaq_HandleData(data:string) : string
+    - {static} <<extern>> SetCallback(pCallback:CallBackDelegate) : bool
+    - {static} <<extern>> SendCommand(pData:IntPtr) : IntPtr
+    - {static} <<extern>> FreeMemory(pData:IntPtr) : bool
+    - {static} <<extern>> Initialize(pPath:IntPtr, logLevel:Int32) : IntPtr
+    - {static} <<extern>> UnInitialize() : IntPtr
+    - {static} <<extern>> SetLogLevel(logLevel:Int32) : IntPtr
+}
+MarshalUTF8 --> "_utf8" UTF8Encoding
+TXmlConnector o-> "EX_SETTING_CALLBACK" String
+TXmlConnector o-> "myCallbackDelegate" CallBackDelegate
+TXmlConnector o-> "callbackHandle" GCHandle
+TXmlConnector o-> "statusDisconnected" AutoResetEvent
+TXmlConnector --> "send_new_form_data" NewStringDataHandler
+TXmlConnector --> "send_new_security" NewStringDataHandler
+TXmlConnector --> "send_new_timeframe" NewStringDataHandler
+TXmlConnector --> "send_new_status" NewBoolDataHandler
+class DataSet_tslight {
+    + DataSet_tslight()
+}
+class DataTable_security {
+    + DataTable_security()
+    + Count : int <<get>>
+    + Add_Row(row:DataRow_security) : void
+    + Remove_Row(row:DataRow_security) : void
+    + Add_Row(security_id:int, security_code:string) : DataRow_security
+    + New_Row() : DataRow_security
+    # <<override>> NewRowFromBuilder(builder:global::System.Data.DataRowBuilder) : global::System.Data.DataRow
+    + FindByID(id:uint) : DataRow
+    <<internal>> InitVars() : void
+    <<internal>> InitClass() : void
+    # <<override>> GetRowType() : Type
+}
+class DataRow_security <<partial>> {
+    <<internal>> DataRow_security(rb:global::System.Data.DataRowBuilder)
+    + security_id : int <<get>> <<set>>
+    + security_code : string <<get>> <<set>>
+}
+class DataTable_timeframe {
+    + DataTable_timeframe()
+    + Count : int <<get>>
+    + Add_Row(row:DataRow_timeframe) : void
+    + Remove_Row(row:DataRow_timeframe) : void
+    + Add_Row(timeframe_id:int, timeframe_length:int, timeframe_name:string) : DataRow_timeframe
+    + New_Row() : DataRow_timeframe
+    # <<override>> NewRowFromBuilder(builder:global::System.Data.DataRowBuilder) : global::System.Data.DataRow
+    + FindByID(id:uint) : DataRow
+    <<internal>> InitVars() : void
+    <<internal>> InitClass() : void
+    # <<override>> GetRowType() : Type
+}
+class DataRow_timeframe <<partial>> {
+    <<internal>> DataRow_timeframe(rb:global::System.Data.DataRowBuilder)
+    + timeframe_id : int <<get>> <<set>>
+    + timeframe_length : int <<get>> <<set>>
+    + timeframe_name : string <<get>> <<set>>
+}
+class DataTable_candle {
+    + DataTable_candle()
+    + Count : int <<get>>
+    + Add_Row(row:DataRow_candle) : void
+    + Remove_Row(row:DataRow_candle) : void
+    + Add_Row(date:DateTime, open:double, high:double, low:double, close:double, volume:int) : DataRow_candle
+    + New_Row() : DataRow_candle
+    # <<override>> NewRowFromBuilder(builder:global::System.Data.DataRowBuilder) : global::System.Data.DataRow
+    + FindByDT(dt:DateTime) : DataRow
+    <<internal>> InitVars() : void
+    <<internal>> InitClass() : void
+    # <<override>> GetRowType() : Type
+}
+class DataRow_candle <<partial>> {
+    <<internal>> DataRow_candle(rb:global::System.Data.DataRowBuilder)
+    + open : double <<get>> <<set>>
+    + high : double <<get>> <<set>>
+    + low : double <<get>> <<set>>
+    + close : double <<get>> <<set>>
+    + volume : int <<get>> <<set>>
+}
+DataSet <|-- DataSet_tslight
+DataSet_tslight --> "t_security" DataTable_security
+DataSet_tslight --> "t_timeframe" DataTable_timeframe
+DataSet_tslight --> "t_candle" DataTable_candle
+DataTable <|-- DataTable_security
+DataTable_security --> "security_id" DataColumn
+DataTable_security --> "security_code" DataColumn
+DataRow_security --> "table" DataTable_security
+DataTable <|-- DataTable_timeframe
+DataTable_timeframe --> "timeframe_id" DataColumn
+DataTable_timeframe --> "timeframe_length" DataColumn
+DataTable_timeframe --> "timeframe_name" DataColumn
+DataRow_timeframe --> "table" DataTable_timeframe
+DataTable <|-- DataTable_candle
+DataTable_candle --> "date" DataColumn
+DataTable_candle --> "open" DataColumn
+DataTable_candle --> "high" DataColumn
+DataTable_candle --> "low" DataColumn
+DataTable_candle --> "close" DataColumn
+DataTable_candle --> "volume" DataColumn
+DataRow_candle --> "table" DataTable_candle
+DataRow_candle --> "date" DateTime
+class log <<static>> {
+    {static} - LogFlag : bool = false
+    + {static} WriteLog(log_str:string) : void
+    + {static} StartLogging(path:string) : void
+    + {static} StopLogging() : void
+}
+log --> "LogFile" StreamWriter
+class MainForm <<partial>> {
+    + AppDir : string
+    + sLogin : string
+    + sPassword : string
+    + ServerIP : string
+    + ServerPort : string
+    + session_timeout : int
+    + request_timeout : int
+    - bConnected : bool
+    - bConnecting : bool
+    + PointChar : char
+    - PassHide : bool = true
+    -  <<event>> onNewFormDataEvent : NewStringDataHandler 
+    -  <<event>> onNewSecurityEvent : NewStringDataHandler 
+    -  <<event>> onNewTimeframeEvent : NewStringDataHandler 
+    -  <<event>> onNewStatusEvent : NewBoolDataHandler 
+    + MainForm()
+    MainFormLoad(sender:object, e:EventArgs) : void
+    - OnNewFormData(data:string) : void
+    - OnNewSecurity(data:string) : void
+    - OnNewTimeframe(data:string) : void
+    - OnNewStatus(status:bool) : void
+    MainFormFormClosing(sender:object, e:FormClosingEventArgs) : void
+    
+    + Init_Data() : void
+    - ComboBox1_TextChanged(sender:object, e:EventArgs) : void
+    Transaq_Connect() : void
+    Transaq_Disconnect() : void
+    Get_Transaq_History(SecurityID:int, TimeframeID:int, HistoryLength:int, ResetFlag:bool) : void
+    ConnectingReflect() : void
+    DisconnectingReflect() : void
+    ConnectionStatusReflect(connected:bool) : void
+    + Add_FormData(data:string) : void
+    + Add_Timeframe(data:string) : void
+    + Add_Security(data:string) : void
+    + ShowStatus(status_str:string) : void
+    btn_Connect_Click(sender:object, e:EventArgs) : void
+    Enable_Password_Controls(bEnable:bool) : void
+    - btnPassChange_Click(sender:object, e:EventArgs) : void
+    - checkHide_CheckedChanged(sender:object, e:EventArgs) : void
+}
+Form <|-- MainForm
+MainForm --> "DTS" DataSet_tslight
+class MainForm <<partial>> {
+    # <<override>> Dispose(disposing:bool) : void
+    - InitializeComponent() : void
+}
+class Program <<sealed>> {
+    - {static} Main(args:string[]) : void
+}
+class StrategyClass {
+    + period1 : int
+    + period2 : int
+    + LongPos : bool
+    + ShortPos : bool
+    + PrevLongPos : bool
+    + PrevShortPos : bool
+    + StrategyClass(p1:int, p2:int)
+    + InitParams(p1:int, p2:int) : void
+    + Handle(Candles:DataTable_candle) : void
+}
+class "IList`1"<T> {
+}
+Object <|-- StrategyClass
+StrategyClass --> "LastDT" DateTime
+StrategyClass --> "BuyDT" DateTime
+StrategyClass --> "SellDT" DateTime
+StrategyClass --> "ShortDT" DateTime
+StrategyClass --> "CoverDT" DateTime
+StrategyClass --> "nBuy<int>" "IList`1"
+StrategyClass --> "nSell<int>" "IList`1"
+StrategyClass --> "nShort<int>" "IList`1"
+StrategyClass --> "nCover<int>" "IList`1"
+@enduml

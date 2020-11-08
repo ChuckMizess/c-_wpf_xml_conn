@@ -1,0 +1,25 @@
+@startuml
+class StrategyClass {
+    + period1 : int
+    + period2 : int
+    + LongPos : bool
+    + ShortPos : bool
+    + PrevLongPos : bool
+    + PrevShortPos : bool
+    + StrategyClass(p1:int, p2:int)
+    + InitParams(p1:int, p2:int) : void
+    + Handle(Candles:DataTable_candle) : void
+}
+class "IList`1"<T> {
+}
+Object <|-- StrategyClass
+StrategyClass --> "LastDT" DateTime
+StrategyClass --> "BuyDT" DateTime
+StrategyClass --> "SellDT" DateTime
+StrategyClass --> "ShortDT" DateTime
+StrategyClass --> "CoverDT" DateTime
+StrategyClass --> "nBuy<int>" "IList`1"
+StrategyClass --> "nSell<int>" "IList`1"
+StrategyClass --> "nShort<int>" "IList`1"
+StrategyClass --> "nCover<int>" "IList`1"
+@enduml

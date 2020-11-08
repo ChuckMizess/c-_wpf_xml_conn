@@ -1,0 +1,2 @@
+21:05:42.862 START LOGGING
+21:07:01.109 Initialize() OK

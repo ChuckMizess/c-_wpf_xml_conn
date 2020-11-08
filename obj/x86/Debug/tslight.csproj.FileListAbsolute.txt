@@ -1,0 +1,114 @@
+O:\My Documents\SharpDevelop Projects\tslight\tslight\bin\Debug\tslight.exe
+O:\My Documents\SharpDevelop Projects\tslight\tslight\bin\Debug\tslight.pdb
+O:\My Documents\SharpDevelop Projects\tslight\tslight\obj\x86\Debug\ResolveAssemblyReference.cache
+O:\My Documents\SharpDevelop Projects\tslight\tslight\obj\x86\Debug\tslight.exe
+O:\My Documents\SharpDevelop Projects\tslight\tslight\obj\x86\Debug\tslight.pdb
+O:\My Documents\SharpDevelop Projects\tslight\tslight\obj\x86\Debug\tslight.MainForm.resources
+O:\My Documents\SharpDevelop Projects\tslight\tslight\obj\x86\Debug\tslight.csproj.GenerateResource.Cache
+D:\Documents and Settings\fgadiev\Мои документы\Project-tc-011010\tslight\obj\x86\Debug\tslight.exe
+D:\Documents and Settings\fgadiev\Мои документы\Project-tc-011010\tslight\obj\x86\Debug\tslight.pdb
+D:\Documents and Settings\fgadiev\Мои документы\Project-tc-011010\tslight\bin\Debug\tslight.exe
+D:\Documents and Settings\fgadiev\Мои документы\Project-tc-011010\tslight\bin\Debug\tslight.pdb
+D:\Documents and Settings\fgadiev\Мои документы\Project-tc-011010\tslight\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\fgadiev\Мои документы\Project-tc-011010\tslight\obj\x86\Debug\tslight.MainForm.resources
+D:\Documents and Settings\fgadiev\Мои документы\Project-tc-011010\tslight\obj\x86\Debug\tslight.csproj.GenerateResource.Cache
+D:\C#_TransaqConnector\TS Light (для тестирования)\tslight\obj\x86\Debug\tslight.exe
+D:\C#_TransaqConnector\TS Light (для тестирования)\tslight\obj\x86\Debug\tslight.pdb
+D:\C#_TransaqConnector\TS Light (для тестирования)\tslight\bin\Debug\tslight.exe
+D:\C#_TransaqConnector\TS Light (для тестирования)\tslight\bin\Debug\tslight.pdb
+D:\C#_TransaqConnector\TS Light (для тестирования)\tslight\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\C#_TransaqConnector\TS Light (для тестирования)\tslight\obj\x86\Debug\tslight.MainForm.resources
+D:\C#_TransaqConnector\TS Light (для тестирования)\tslight\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\C#_TransaqConnector\TS Light (для тестирования)\tslight\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\C#_TransaqConnector\TS Light (для клиентов)\tslight\obj\x86\Debug\tslight.exe
+D:\C#_TransaqConnector\TS Light (для клиентов)\tslight\obj\x86\Debug\tslight.pdb
+D:\C#_TransaqConnector\TS Light (для клиентов)\tslight\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\C#_TransaqConnector\TS Light (для клиентов)\tslight\obj\x86\Debug\tslight.MainForm.resources
+D:\C#_TransaqConnector\TS Light (для клиентов)\tslight\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\C#_TransaqConnector\TS Light (для клиентов)\tslight\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\C#_TransaqConnector\TS Light (для клиентов)\tslight\bin\Debug\tslight.exe
+D:\C#_TransaqConnector\TS Light (для клиентов)\tslight\bin\Debug\tslight.pdb
+D:\C#_TransaqConnector\TS Light (тест для клиентов)\tslight\obj\x86\Debug\tslight.exe
+D:\C#_TransaqConnector\TS Light (тест для клиентов)\tslight\obj\x86\Debug\tslight.pdb
+D:\C#_TransaqConnector\TS Light (тест для клиентов)\tslight\bin\Debug\tslight.exe
+D:\C#_TransaqConnector\TS Light (тест для клиентов)\tslight\bin\Debug\tslight.pdb
+D:\C#_TransaqConnector\TS Light (тест для клиентов)\tslight\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\C#_TransaqConnector\TS Light (тест для клиентов)\tslight\obj\x86\Debug\tslight.MainForm.resources
+D:\C#_TransaqConnector\TS Light (тест для клиентов)\tslight\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\C#_TransaqConnector\TS Light (тест для клиентов)\tslight\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\C#_TransaqConnector\TS Light (Test connector для клиентов)\tslight\obj\x86\Debug\tslight.exe
+D:\C#_TransaqConnector\TS Light (Test connector для клиентов)\tslight\obj\x86\Debug\tslight.pdb
+D:\C#_TransaqConnector\TS Light (Test connector для клиентов)\tslight\bin\Debug\tslight.exe
+D:\C#_TransaqConnector\TS Light (Test connector для клиентов)\tslight\bin\Debug\tslight.pdb
+D:\C#_TransaqConnector\TS Light (Test connector для клиентов)\tslight\obj\x86\Debug\tslight.MainForm.resources
+D:\C#_TransaqConnector\TS Light (Test connector для клиентов)\tslight\obj\x86\Debug\tslight.csprojResolveAssemblyReference.cache
+D:\C#_TransaqConnector\TS Light (Test connector для клиентов)\tslight\obj\x86\Debug\tslight.csproj.GenerateResource.Cache
+M:\Office\OpenAPI\002 - API\OpenAPI\Transaq Connector\TS Light\tslight\obj\x86\Debug\tslight.exe
+M:\Office\OpenAPI\002 - API\OpenAPI\Transaq Connector\TS Light\tslight\obj\x86\Debug\tslight.pdb
+D:\C#_TransaqConnector\Project-tc-20140131\TS Light\tslight\obj\x86\Debug\tslight.exe
+D:\C#_TransaqConnector\Project-tc-20140131\TS Light\tslight\obj\x86\Debug\tslight.pdb
+D:\C#_TransaqConnector\Project-tc-20140131\TS Light\tslight\bin\Debug\tslight.exe
+D:\C#_TransaqConnector\Project-tc-20140131\TS Light\tslight\bin\Debug\tslight.pdb
+D:\C#_TransaqConnector\Project-tc-20140131\TS Light\tslight\obj\x86\Debug\tslight.csprojResolveAssemblyReference.cache
+D:\C#_TransaqConnector\Project-tc-20140131\TS Light\tslight\obj\x86\Debug\tslight.MainForm.resources
+D:\C#_TransaqConnector\Project-tc-20140131\TS Light\tslight\obj\x86\Debug\tslight.csproj.GenerateResource.Cache
+D:\C#_TransaqConnector\Project-tc-20140131\tslight\obj\x86\Debug\tslight.exe
+D:\C#_TransaqConnector\Project-tc-20140131\tslight\obj\x86\Debug\tslight.pdb
+D:\C#_TransaqConnector\Project-tc-20140506\tslight\obj\x86\Debug\tslight.exe
+D:\C#_TransaqConnector\Project-tc-20140506\tslight\obj\x86\Debug\tslight.pdb
+D:\C#_TransaqConnector\Project-tc-20140506\tslight\bin\Debug\tslight.exe
+D:\C#_TransaqConnector\Project-tc-20140506\tslight\bin\Debug\tslight.pdb
+D:\C#_TransaqConnector\Project-tc-20140506\tslight\obj\x86\Debug\tslight.MainForm.resources
+D:\C#_TransaqConnector\Project-tc-20140506\tslight\obj\x86\Debug\tslight.csproj.GenerateResource.Cache
+D:\C#_TransaqConnector\Project-tc-NEW\tslight\obj\x86\Debug\tslight.exe
+D:\C#_TransaqConnector\Project-tc-NEW\tslight\obj\x86\Debug\tslight.pdb
+D:\C#_TransaqConnector\Project-tc-NEW\tslight\obj\x86\Debug\tslight.MainForm.resources
+D:\C#_TransaqConnector\Project-tc-NEW\tslight\obj\x86\Debug\tslight.csproj.GenerateResource.Cache
+D:\C#_TransaqConnector\Project-tc-NEW\tslight\bin\Debug\tslight.exe
+D:\C#_TransaqConnector\Project-tc-NEW\tslight\bin\Debug\tslight.pdb
+D:\C#_TransaqConnector\Project-tc-20140704\tslight\obj\x86\Debug\tslight.exe
+D:\C#_TransaqConnector\Project-tc-20140704\tslight\obj\x86\Debug\tslight.pdb
+D:\C#_TransaqConnector\Project-tc-20140704\tslight\bin\Debug\tslight.exe
+D:\C#_TransaqConnector\Project-tc-20140704\tslight\bin\Debug\tslight.pdb
+D:\C#_TransaqConnector\Project-tc-20140704\tslight\obj\x86\Debug\tslight.csprojResolveAssemblyReference.cache
+D:\C#_TransaqConnector\Project-tc-20140704\tslight\obj\x86\Debug\tslight.MainForm.resources
+D:\C#_TransaqConnector\Project-tc-20140704\tslight\obj\x86\Debug\tslight.csproj.GenerateResource.Cache
+D:\C#_TransaqConnector\Project-tc-20140818\tslight\obj\x86\Debug\tslight.exe
+D:\C#_TransaqConnector\Project-tc-20140818\tslight\obj\x86\Debug\tslight.pdb
+D:\C#_TransaqConnector\Project-tc-20140818\tslight\bin\Debug\tslight.exe
+D:\C#_TransaqConnector\Project-tc-20140818\tslight\bin\Debug\tslight.pdb
+D:\C#_TransaqConnector\Project-tc-20140818\tslight\obj\x86\Debug\tslight.csprojResolveAssemblyReference.cache
+D:\C#_TransaqConnector\Project-tc-20140818\tslight\obj\x86\Debug\tslight.MainForm.resources
+D:\C#_TransaqConnector\Project-tc-20140818\tslight\obj\x86\Debug\tslight.csproj.GenerateResource.Cache
+D:\C#_TransaqConnector\Project-tc-20141010\tslight\obj\x86\Debug\tslight.exe
+D:\C#_TransaqConnector\Project-tc-20141010\tslight\obj\x86\Debug\tslight.pdb
+D:\C#_TransaqConnector\Project-tc-20150921\tslight\obj\x86\Debug\tslight.exe
+D:\C#_TransaqConnector\Project-tc-20150921\tslight\obj\x86\Debug\tslight.pdb
+D:\C#_TransaqConnector\Project-tc-20150921\tslight\obj\x86\Debug\tslight.MainForm.resources
+D:\C#_TransaqConnector\Project-tc-20150921\tslight\obj\x86\Debug\tslight.csproj.GenerateResource.Cache
+D:\C#_TransaqConnector\Project-tc-20150921\tslight\bin\Debug\tslight.exe
+D:\C#_TransaqConnector\Project-tc-20150921\tslight\bin\Debug\tslight.pdb
+D:\C#_TransaqConnector\Project-tc-20160210\tslight\obj\x86\Debug\tslight.exe
+D:\C#_TransaqConnector\Project-tc-20160210\tslight\obj\x86\Debug\tslight.pdb
+D:\C#_TransaqConnector\Project-tc-20160210\tslight\bin\Debug\tslight.exe
+D:\C#_TransaqConnector\Project-tc-20160210\tslight\bin\Debug\tslight.pdb
+D:\C#_TransaqConnector\Project-tc-20160210\tslight\obj\x86\Debug\tslight.csprojResolveAssemblyReference.cache
+D:\C#_TransaqConnector\Project-tc-20160210\tslight\obj\x86\Debug\tslight.MainForm.resources
+D:\C#_TransaqConnector\Project-tc-20160210\tslight\obj\x86\Debug\tslight.csproj.GenerateResource.Cache
+C:\Users\myakubov\Desktop\Новая папка\tslight\bin\Debug\tslight.exe
+C:\Users\myakubov\Desktop\Новая папка\tslight\bin\Debug\tslight.pdb
+C:\Users\myakubov\Desktop\Новая папка\tslight\obj\x86\Debug\tslight.csprojAssemblyReference.cache
+C:\Users\myakubov\Desktop\Новая папка\tslight\obj\x86\Debug\tslight.MainForm.resources
+C:\Users\myakubov\Desktop\Новая папка\tslight\obj\x86\Debug\tslight.csproj.GenerateResource.cache
+C:\Users\myakubov\Desktop\Новая папка\tslight\obj\x86\Debug\tslight.csproj.CoreCompileInputs.cache
+C:\Users\myakubov\Desktop\Новая папка\tslight\obj\x86\Debug\tslight.exe
+C:\Users\myakubov\Desktop\Новая папка\tslight\obj\x86\Debug\tslight.pdb
+D:\progr_fol\Project-tc-f 13.12.2019\tslight\bin\Debug\tslight.exe
+D:\progr_fol\Project-tc-f 13.12.2019\tslight\bin\Debug\tslight.pdb
+D:\progr_fol\Project-tc-f 13.12.2019\tslight\obj\x86\Debug\tslight.csprojAssemblyReference.cache
+D:\progr_fol\Project-tc-f 13.12.2019\tslight\obj\x86\Debug\tslight.MainForm.resources
+D:\progr_fol\Project-tc-f 13.12.2019\tslight\obj\x86\Debug\tslight.csproj.GenerateResource.cache
+D:\progr_fol\Project-tc-f 13.12.2019\tslight\obj\x86\Debug\tslight.csproj.CoreCompileInputs.cache
+D:\progr_fol\Project-tc-f 13.12.2019\tslight\obj\x86\Debug\tslight.exe
+D:\progr_fol\Project-tc-f 13.12.2019\tslight\obj\x86\Debug\tslight.pdb
+D:\progr_fol\Project-tc-f 13.12.2019\tslight\bin\Debug\tslight.exe.config

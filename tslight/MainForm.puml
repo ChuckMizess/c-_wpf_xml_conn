@@ -1,0 +1,44 @@
+@startuml
+class MainForm <<partial>> {
+    + AppDir : string
+    + sLogin : string
+    + sPassword : string
+    + ServerIP : string
+    + ServerPort : string
+    + session_timeout : int
+    + request_timeout : int
+    - bConnected : bool
+    - bConnecting : bool
+    + PointChar : char
+    - PassHide : bool = true
+    -  <<event>> onNewFormDataEvent : NewStringDataHandler 
+    -  <<event>> onNewSecurityEvent : NewStringDataHandler 
+    -  <<event>> onNewTimeframeEvent : NewStringDataHandler 
+    -  <<event>> onNewStatusEvent : NewBoolDataHandler 
+    + MainForm()
+    MainFormLoad(sender:object, e:EventArgs) : void
+    - OnNewFormData(data:string) : void
+    - OnNewSecurity(data:string) : void
+    - OnNewTimeframe(data:string) : void
+    - OnNewStatus(status:bool) : void
+    MainFormFormClosing(sender:object, e:FormClosingEventArgs) : void
+    + ShowStatus(status_str:string) : void
+    + Init_Data() : void
+    - ComboBox1_TextChanged(sender:object, e:EventArgs) : void
+    Transaq_Connect() : void
+    Transaq_Disconnect() : void
+    Get_Transaq_History(SecurityID:int, TimeframeID:int, HistoryLength:int, ResetFlag:bool) : void
+    ConnectingReflect() : void
+    DisconnectingReflect() : void
+    ConnectionStatusReflect(connected:bool) : void
+    + Add_FormData(data:string) : void
+    + Add_Timeframe(data:string) : void
+    + Add_Security(data:string) : void
+    btn_Connect_Click(sender:object, e:EventArgs) : void
+    Enable_Password_Controls(bEnable:bool) : void
+    - btnPassChange_Click(sender:object, e:EventArgs) : void
+    - checkHide_CheckedChanged(sender:object, e:EventArgs) : void
+}
+Form <|-- MainForm
+MainForm --> "DTS" DataSet_tslight
+@enduml

@@ -1,0 +1,5 @@
+170029.885548 [5068] [8284] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+170120.774459 [5436] [3852] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
+170210.951329 [5436] [3852] <cmd> [I] <command id="connect"><login>FBTC1391A</login><password>*</password><host>tr1.finambank.ru</host><port>3324</port><rqdelay>100</rqdelay><session_timeout>25</session_timeout> <request_timeout>10</request_timeout></command>
+170212.038391 [5436] [3852] <res> [R] <result success="true"/>
+170324.021508 [5436] [clbk] <info> [O] [71650184u] <markets><market id="0">Collateral</market><market id="1">ллба</market><market id="4">FORTS</market><market id="8">INF</market><market id="14">MMA</market><market id="15">ETS</market></markets>

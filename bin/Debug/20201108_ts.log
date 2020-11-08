@@ -1,0 +1,59 @@
+
+
+Start logging 08/11/2020 11:57:10 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+11:57:10.597 {754} Connecting to tr1.finambank.ru:3324 buf=65512...
+11:57:11.004 {754} Connected.
+11:57:11.058 {754} Session timeout 25000 ms.
+11:57:11.058 {754} Request timeout 10000 ms.
+11:57:11.059 {754} SYS# 617 BLD# 401 SRV# 1 UID# 38712
+11:57:11.072 {754} Server time:8/11/2020 11:57:06, RQL:13, Diff*10:-50
+11:57:11.106 {754} Server time:8/11/2020 11:57:06, RQL:14, Diff*10:-50
+11:57:16.905 {754} Snapshot accepted
+11:57:16.905 {754} EURUSDTODTOM=EURUSD000TOM - EURUSD000TOD.
+11:57:16.905 {754} EURUSD000TOM=EUR_RUB__TOM - USD000UTSTOM.
+11:57:16.905 {754} EURUSD000TOD=EUR_RUB__TOD - USD000000TOD.
+11:57:17.332 {754} Snapshot done. 
+14:30:57.503 {754} RQ_MAIN recv #6122:0 (-8recv) timeout
+14:30:57.503 {754} ReConnecting to tr1.finambank.ru:3324...
+14:31:08.022 {754} Connect error #8 Server:  Сервер недоступен.
+14:31:09.022 {754} RQ_MAIN [-1] Request timeout.
+14:31:09.022 {754} 
+RQ: 5
+SG: 1
+14:31:09.694 {754} Unknown Exception. Event: #0: 0, previous: 0, zone: -1
+14:31:09.694 {754} 
+RQ: 5
+SG: 1
+14:31:13.268 {754} 
+RQ: 2
+SG: 1
+WR: 
+ 
+
+Start logging 08/11/2020 14:31:42 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+14:31:42.676 {27C0} Connecting to tr1.finambank.ru:3324 buf=65512...
+14:31:42.795 {27C0} Connected.
+14:31:42.834 {27C0} Session timeout 25000 ms.
+14:31:42.834 {27C0} Request timeout 10000 ms.
+14:31:42.834 {27C0} SYS# 617 BLD# 401 SRV# 1 UID# 38712
+14:31:42.847 {27C0} Server time:8/11/2020 14:31:38, RQL:13, Diff*10:-40
+14:31:42.875 {27C0} Server time:8/11/2020 14:31:38, RQL:13, Diff*10:-40
+14:31:47.850 {27C0} Snapshot accepted
+14:31:47.850 {27C0} EURUSDTODTOM=EURUSD000TOM - EURUSD000TOD.
+14:31:47.850 {27C0} EURUSD000TOM=EUR_RUB__TOM - USD000UTSTOM.
+14:31:47.850 {27C0} EURUSD000TOD=EUR_RUB__TOD - USD000000TOD.
+14:31:48.174 {27C0} Snapshot done. 
+
+Start logging 08/11/2020 14:32:10 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+14:32:10.892 {EEC} Connecting to tr1.finambank.ru:3324 buf=65512...
+14:32:10.909 {EEC} Connected.
+14:32:10.948 {EEC} Session timeout 25000 ms.
+14:32:10.948 {EEC} Request timeout 10000 ms.
+14:32:10.948 {EEC} SYS# 617 BLD# 401 SRV# 1 UID# 38712
+14:32:10.961 {EEC} Server time:8/11/2020 14:32:06, RQL:12, Diff*10:-40
+14:32:10.988 {EEC} Server time:8/11/2020 14:32:06, RQL:12, Diff*10:-40
+14:32:15.945 {EEC} Snapshot accepted
+14:32:15.945 {EEC} EURUSDTODTOM=EURUSD000TOM - EURUSD000TOD.
+14:32:15.946 {EEC} EURUSD000TOM=EUR_RUB__TOM - USD000UTSTOM.
+14:32:15.946 {EEC} EURUSD000TOD=EUR_RUB__TOD - USD000000TOD.
+14:32:16.272 {EEC} Snapshot done. 

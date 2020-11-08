@@ -1,0 +1,41 @@
+
+
+Start logging 03/11/2020 17:12:52 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+17:12:52.775 {1E34} Connecting to tr1.finambank.ru:3324 buf=65512...
+17:12:52.850 {1E34} Connection error #8.
+17:12:52.867 {1E34} Trade Stream Closed. Reason: 'Connect/Login failed'. S:0/0, R:0/0, E:0, Rl:0
+
+
+Start logging 03/11/2020 17:30:57 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+17:30:57.677 {634} Connecting to tr1.finam.ru:3900 buf=65512...
+17:30:57.783 {634} Connection error #8.
+17:30:57.783 {634} Trade Stream Closed. Reason: 'Connect/Login failed'. S:0/0, R:0/0, E:0, Rl:0
+
+
+Start logging 03/11/2020 17:31:21 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+17:31:21.853 {9B8} Connecting to tr1.finam.ru:3900 buf=65512...
+17:31:21.857 {9B8} Connection error #8.
+17:31:21.857 {9B8} Trade Stream Closed. Reason: 'Connect/Login failed'. S:0/0, R:0/0, E:0, Rl:0
+
+
+Start logging 03/11/2020 17:32:48 Transaq TXmlConnector, ver.6.17-T61-37-6.17.2.21.2
+17:32:48.778 {19D8} Connecting to tr1.finambank.ru:3324 buf=65512...
+17:32:48.897 {19D8} Connected.
+17:32:49.001 {19D8} Session timeout 25000 ms.
+17:32:49.002 {19D8} Request timeout 10000 ms.
+17:32:49.002 {19D8} SYS# 617 BLD# 42 SRV# 1 UID# 38712
+17:32:49.018 {19D8} Server time:3/11/2020 17:32:38, RQL:12, Diff*10:-110
+17:32:49.053 {19D8} Server time:3/11/2020 17:32:38, RQL:12, Diff*10:-110
+17:32:54.749 {19D8} Snapshot accepted
+17:32:54.760 {19D8} EURUSDTODTOM=EURUSD000TOM - EURUSD000TOD.
+17:32:54.761 {19D8} EURUSD000TOM=EUR_RUB__TOM - USD000UTSTOM.
+17:32:54.761 {19D8} EURUSD000TOD=EUR_RUB__TOD - USD000000TOD.
+17:32:55.107 {19D8} Snapshot done. 
+19:00:05.831 {19D8} GtUp:4
+23:21:30.988 {19D8} 
+RQ: 5
+SG: 2
+RD: <:8;
+LFT: 0
+ 
+23:21:31.196 {19D8} Trade Stream Closed. S:1668041/208472, R:50700811/212465, E:0, Rl:0

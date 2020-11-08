@@ -1,0 +1,85 @@
+@startuml
+class DataSet_tslight {
+    + DataSet_tslight()
+}
+class DataTable_security {
+    + DataTable_security()
+    + Count : int <<get>>
+    + Add_Row(row:DataRow_security) : void
+    + Remove_Row(row:DataRow_security) : void
+    + Add_Row(security_id:int, security_code:string) : DataRow_security
+    + New_Row() : DataRow_security
+    # <<override>> NewRowFromBuilder(builder:global::System.Data.DataRowBuilder) : global::System.Data.DataRow
+    + FindByID(id:uint) : DataRow
+    <<internal>> InitVars() : void
+    <<internal>> InitClass() : void
+    # <<override>> GetRowType() : Type
+}
+class DataRow_security <<partial>> {
+    <<internal>> DataRow_security(rb:global::System.Data.DataRowBuilder)
+    + security_id : int <<get>> <<set>>
+    + security_code : string <<get>> <<set>>
+}
+class DataTable_timeframe {
+    + DataTable_timeframe()
+    + Count : int <<get>>
+    + Add_Row(row:DataRow_timeframe) : void
+    + Remove_Row(row:DataRow_timeframe) : void
+    + Add_Row(timeframe_id:int, timeframe_length:int, timeframe_name:string) : DataRow_timeframe
+    + New_Row() : DataRow_timeframe
+    # <<override>> NewRowFromBuilder(builder:global::System.Data.DataRowBuilder) : global::System.Data.DataRow
+    + FindByID(id:uint) : DataRow
+    <<internal>> InitVars() : void
+    <<internal>> InitClass() : void
+    # <<override>> GetRowType() : Type
+}
+class DataRow_timeframe <<partial>> {
+    <<internal>> DataRow_timeframe(rb:global::System.Data.DataRowBuilder)
+    + timeframe_id : int <<get>> <<set>>
+    + timeframe_length : int <<get>> <<set>>
+    + timeframe_name : string <<get>> <<set>>
+}
+class DataTable_candle {
+    + DataTable_candle()
+    + Count : int <<get>>
+    + Add_Row(row:DataRow_candle) : void
+    + Remove_Row(row:DataRow_candle) : void
+    + Add_Row(date:DateTime, open:double, high:double, low:double, close:double, volume:int) : DataRow_candle
+    + New_Row() : DataRow_candle
+    # <<override>> NewRowFromBuilder(builder:global::System.Data.DataRowBuilder) : global::System.Data.DataRow
+    + FindByDT(dt:DateTime) : DataRow
+    <<internal>> InitVars() : void
+    <<internal>> InitClass() : void
+    # <<override>> GetRowType() : Type
+}
+class DataRow_candle <<partial>> {
+    <<internal>> DataRow_candle(rb:global::System.Data.DataRowBuilder)
+    + open : double <<get>> <<set>>
+    + high : double <<get>> <<set>>
+    + low : double <<get>> <<set>>
+    + close : double <<get>> <<set>>
+    + volume : int <<get>> <<set>>
+}
+DataSet <|-- DataSet_tslight
+DataSet_tslight --> "t_security" DataTable_security
+DataSet_tslight --> "t_timeframe" DataTable_timeframe
+DataSet_tslight --> "t_candle" DataTable_candle
+DataTable <|-- DataTable_security
+DataTable_security --> "security_id" DataColumn
+DataTable_security --> "security_code" DataColumn
+DataRow_security --> "table" DataTable_security
+DataTable <|-- DataTable_timeframe
+DataTable_timeframe --> "timeframe_id" DataColumn
+DataTable_timeframe --> "timeframe_length" DataColumn
+DataTable_timeframe --> "timeframe_name" DataColumn
+DataRow_timeframe --> "table" DataTable_timeframe
+DataTable <|-- DataTable_candle
+DataTable_candle --> "date" DataColumn
+DataTable_candle --> "open" DataColumn
+DataTable_candle --> "high" DataColumn
+DataTable_candle --> "low" DataColumn
+DataTable_candle --> "close" DataColumn
+DataTable_candle --> "volume" DataColumn
+DataRow_candle --> "table" DataTable_candle
+DataRow_candle --> "date" DateTime
+@enduml

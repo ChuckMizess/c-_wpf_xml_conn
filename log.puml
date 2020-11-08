@@ -1,0 +1,9 @@
+@startuml
+class log <<static>> {
+    {static} - LogFlag : bool = false
+    + {static} WriteLog(log_str:string) : void
+    + {static} StartLogging(path:string) : void
+    + {static} StopLogging() : void
+}
+log --> "LogFile" StreamWriter
+@enduml
