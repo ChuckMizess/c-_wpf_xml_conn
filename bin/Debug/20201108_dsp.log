@@ -56,3 +56,6 @@
 143216.272505 [6424] [main] <info> Snapshot progress: Cl: 4, As: 0
 143216.272505 [6424] [main] <info> Snapshot loaded: Cl: 4, As: 0
 143216.272505 [6424] [main] <info> Host RAM: 4294MB total, 432MB available, 99971KB used
+143613.609080 [3416] [3904] <info> Open log D:\progr_fol\Project-tc-f 13.12.2019\tslight\bin\Debug\, level 3
+143613.609080 [3416] [3904] <info> System version 6.17. TXmlConnector version 2.21.2
+143613.609080 [3416] [3904] <info> Initializing...

@@ -42,3 +42,5 @@ add market: 4;FORTS;
 add market: 14;MMA;
 add market: 15;ETS;
 add market: 15;ETS;
+14:32:26.710 START LOGGING
+14:36:19.533 Initialize() OK

@@ -10,3 +10,4 @@
 143203.896797 [6424] [5228] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
 143209.891140 [6424] [5228] <cmd> [I] <command id="connect"><login>FBTC1391A</login><password>*</password><host>tr1.finambank.ru</host><port>3324</port><rqdelay>100</rqdelay><session_timeout>25</session_timeout> <request_timeout>10</request_timeout></command>
 143210.891197 [6424] [5228] <res> [R] <result success="true"/>
+143613.609080 [3416] [3904] <cmd> [V] System version 6.17. TXmlConnector version 2.21.2
